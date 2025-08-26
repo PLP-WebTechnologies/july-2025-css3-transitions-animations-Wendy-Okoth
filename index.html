@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS & JS Interactive Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎨 Interactive Web Page with CSS & JavaScript</h1>
+
+  <!-- Part 1: CSS Animations -->
+  <section>
+    <h2>Part 1: CSS Animations</h2>
+    <button class="hover-btn">Hover Me!</button>
+    <h5>Press this pink box so that you can see how it spins</h5>
+    <div id="animateBox" class="box"></div>
+  </section>
+
+  <!-- Part 2: JS Functions -->
+  <section>
+    <h2>Part 2: JavaScript Functions</h2>
+    <input type="number" id="num1" placeholder="Enter first number">
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button id="calcBtn">Calculate Total</button>
+    <p id="total-result"></p>
+
+    <button id="greetBtn">Greet</button>
+    <p id="greetOutput"></p>
+  </section>
+
+  <!-- Part 3: Trigger CSS Animations via JS -->
+  <section>
+    <h2>Part 3: Trigger Animations via JS</h2>
+    <button id="flipBtn">Flip Card</button>
+    <div class="card">
+      <div class="card-inner" id="cardInner">
+        <div class="card-front">Front</div>
+        <div class="card-back">Back</div>
+      </div>
+    </div>
+
+    <button id="modalBtn">Show Modal</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <p>Hiii! This is a popup modal triggered by JavaScript!</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
