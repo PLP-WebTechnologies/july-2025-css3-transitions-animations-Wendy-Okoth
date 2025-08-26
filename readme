@@ -1,0 +1,47 @@
+Interactive Web Page with CSS & JavaScript
+
+Overview
+This project is a mini interactive demo that combines the power of CSS animations with JavaScript functions to create a visually dynamic and responsive experience.
+
+The page demonstrates:
+CSS hover effects and transitions
+Reusable JavaScript functions with parameters and return values
+Interactive animations triggered via JavaScript
+
+
+
+Features
+Part 1: CSS Animations
+A button with hover effects (transform + transition)
+A box that rotates when clicked
+
+
+Part 2: JavaScript Functions
+showTotal() → Adds two numbers entered by the user
+greetUser(name) → Returns a greeting message using parameters & return values
+
+
+Part 3: Combining CSS & JavaScript
+Card Flip: A card flips between front and back when clicked
+Modal Popup: Opens with a button and closes on X or outside click
+
+
+How to Run
+Save all three files (index.html, styles.css, script.js) in the same folder.
+Open index.html in your browser.
+
+
+Try:
+Hovering over the purple button
+Clicking the pink box
+Entering two numbers and clicking Calculate Total
+Clicking Greet
+Flipping the card
+Opening & closing the modal popup
+
+
+Learning Outcomes:
+CSS Transitions & Animations (transform, @keyframes)
+JavaScript Functions with parameters and return values
+DOM Manipulation (getElementById, addEventListener)
+Integration of CSS & JS to create interactive UI components
